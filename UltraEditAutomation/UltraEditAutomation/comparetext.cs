@@ -166,9 +166,15 @@ namespace UltraEditAutomation
             CompareContent();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'MicrosoftEdge'.", repo.MicrosoftEdge.SelfInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to not exist. Associated repository item: 'MicrosoftEdge'", repo.MicrosoftEdge.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(21));
+            repo.MicrosoftEdge.SelfInfo.WaitForNotExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'MicrosoftEdge'.", repo.MicrosoftEdge.SelfInfo, new RecordItemIndex(22));
             Host.Current.CloseApplication(repo.MicrosoftEdge.Self, new Duration(0));
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(23));
+            Delay.Duration(3000, false);
             
         }
 
