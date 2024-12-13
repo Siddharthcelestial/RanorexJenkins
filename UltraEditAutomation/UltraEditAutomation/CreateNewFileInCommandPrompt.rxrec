@@ -39,6 +39,26 @@ mode="Global">
 			<args>
 			</args>
 		</runapprecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bfcefc99-37d7-4a32-8c23-bfcb0213ae49"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06037ab5-08b3-46ab-aa34-d793dcff715b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Administrator: C:\Windows']/text[@automationid='Text Area']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 		<keysequenceitem
 		KeySequence="uedit64 C:\temp\newfile.txt"
 		duration="20ms"

@@ -83,11 +83,14 @@ namespace UltraEditAutomation
             Host.Local.RunApplication("C:\\Windows\\System32\\cmd.exe", "", "", false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'uedit64 C:\\temp\\newfile.txt' with focus on 'AdministratorCmd.TextArea'.", repo.AdministratorCmd.TextAreaInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'AdministratorCmd.TextArea'", repo.AdministratorCmd.TextAreaInfo, new ActionTimeout(5000), new RecordItemIndex(1));
+            repo.AdministratorCmd.TextAreaInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'uedit64 C:\\temp\\newfile.txt' with focus on 'AdministratorCmd.TextArea'.", repo.AdministratorCmd.TextAreaInfo, new RecordItemIndex(2));
             repo.AdministratorCmd.TextArea.PressKeys("uedit64 C:\\temp\\newfile.txt");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'AdministratorCmd.TextArea'.", repo.AdministratorCmd.TextAreaInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'AdministratorCmd.TextArea'.", repo.AdministratorCmd.TextAreaInfo, new RecordItemIndex(3));
             repo.AdministratorCmd.TextArea.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
