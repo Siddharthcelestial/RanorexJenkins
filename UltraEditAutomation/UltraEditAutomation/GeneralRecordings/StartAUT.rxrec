@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e2650338-2dbb-41bb-a3a6-4798caf81207"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="UltraEditAutomation.GeneralRecordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+		<invokeactionrecorditem
+		action="Close"
+		enabled="False"
+		optional="True"
+		searchpropertyid="47700c94-dbfa-45dc-bd8c-cdd85e1e9b26">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fad3edba-f5c8-46c9-8298-d735f41a3d93"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="1"
+				prefcap="form"
+				rect="600,316,720,400"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						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
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Trial Period Expiring
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						#32770
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						526642
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9340
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						uedit64
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, DialogModalFrame, WindowEdge, ControlParent
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, DialogFrame, ClipSiblings, Visible, PopupWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Trial Period Expiring
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Trial Period Expiring']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="c5c35763-5717-4483-975c-2aaaf5866d41">
+			</arguments>
+		</invokeactionrecorditem>
+		<userrecorditem
+		classname="StartAUT"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CloseTrailScreen"
+		namespace="UltraEditAutomation.GeneralRecordings"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="fc4a49b9-8157-48a4-b0ec-11a29e71edab">
+			</arguments>
+		</userrecorditem>
+		<invokeactionrecorditem
+		action="Maximize"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6071cb0b-6eda-48c4-b620-f5afa8f861da">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5274a8d0-5158-4fda-a542-b6fdc24cb4f2"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'UltraEdit 64-bi']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="1f6fedd2-634f-464a-a653-0d07d77f2d7e">
+			</arguments>
+		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
